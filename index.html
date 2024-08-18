@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="data:image/png;base64,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"
+          alt="Reebok Logo"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">New</a></li>
+        <li><a href="#">Icons</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Classic</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+      <div class="nav-right">
+        <input type="text" placeholder="Search" class="search-bar" />
+        <a href="#" class="express-delivery">Express Delivery</a>
+      </div>
+    </nav>
+
+    <!-- Shoe Section -->
+    <section class="shoe-section">
+      <div class="shoe-card">
+        <img
+          src="https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL480_FMwebp_QL65_.jpg"
+          alt="Shoe 1"
+        />
+        <p class="tag">I AM THE NEW</p>
+        <h3 class="category">Training Shoes</h3>
+        <p class="title">Reebok Women NFX Trainer</p>
+        <p class="price">₹7,599</p>
+      </div>
+      <div class="shoe-card">
+        <img
+          src="https://m.media-amazon.com/images/I/81rgkuUDE4L._AC_UL480_FMwebp_QL65_.jpg"
+          alt="Shoe 2"
+        />
+        <p class="tag">I AM THE NEW</p>
+        <h3 class="category">Classics Shoes</h3>
+        <p class="title">Reebok Women Club C 85 W</p>
+        <p class="price">₹6,999</p>
+      </div>
+      <div class="shoe-card">
+        <img
+          src="https://m.media-amazon.com/images/I/61caYFuVm3L._AC_UL480_FMwebp_QL65_.jpg"
+        />
+        <p class="tag">I AM THE NEW</p>
+        <h3 class="category">Running Shoes</h3>
+        <p class="title">Reebok Women Energen Plus 2</p>
+        <p class="price">₹6,999</p>
+      </div>
+      <div class="shoe-card">
+        <img
+          src="https://m.media-amazon.com/images/I/81+wO9h1JSL._AC_SR155,154_QL70_.jpg"
+          alt="Shoe 4"
+        />
+        <p class="tag">I AM THE NEW</p>
+        <h3 class="category">Classics Shoes</h3>
+        <p class="title">Reebok Unisex Classic Leather</p>
+        <p class="price">₹7,999</p>
+      </div>
+    </section>
+  </body>
+</html>
